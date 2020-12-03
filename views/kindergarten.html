@@ -1,0 +1,74 @@
+<!-- This is a static file -->
+<!-- served from your routes in server.js -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="A cool thing made with Glitch">
+
+    <title>Montessori</title>
+
+    <link id="favicon" rel="icon" href="https://glitch.com/edit/favicon-app.ico" type="image/x-icon">
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css">
+
+    <!-- import the webpage's client-side javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <div>
+<img id="logo" src="https://res.cloudinary.com/pollie/image/upload/v1607018148/Montessori_oaabsa.png">
+    </div>
+    <header><center>
+      <h1>Montessori Parent Reference</h1></center>
+    </header>
+    <hr>
+    <main><center>
+      <h2>Helpful Videos for Parents<br> of Kindergarten</h2>
+      <hr>
+      <p>Select your child's age:</p>
+      <section class="dreams">
+        <div>
+          <div class="row">
+        <label>Click:</label>
+        <button><a href="/baby">Baby</a></button><button><a href="/pre1">Pre-School 1</a></button><button><a href="/pre2">Pre-School 2</a></button><button><a href="/kindergarten">
+        Kindergarten</a>
+        </button>
+          </div>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/hgQehIjjhP0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <br><br>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/_ktR43Z9UcU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        
+        </div>
+        </section>
+      </center>
+      <hr>
+       <center>
+      <form>
+        <span class="row">
+        <label>Recommend new video</label>
+        
+          <input name="dream" type="text" maxlength="100" required placeholder="New Video name or URL">
+        
+        <button type="submit" id="submit-dream">Recommend new Video</button>
+          </span>
+      </form>
+     
+      <section class="dreams">
+        <ul id="dreams">
+          <em>loading dreams&hellip;</em>
+        </ul>
+      </section>
+      </center>
+    </main>
+
+    <footer>Made with <a href="https://glitch.com">Glitch</a>!</footer>
+
+    <!-- include the Glitch button to show what the webpage is about and
+          to make it easier for folks to view source and remix -->
+    <div class="glitchButton" style="position:fixed;top:2em;right:20px;"></div>
+    <script src="https://button.glitch.me/button.js" defer></script>
+  </body>
+</html>
